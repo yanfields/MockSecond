@@ -1,0 +1,98 @@
+* {
+  margin: 0; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #D0CFCB;
+  background-size: cover;
+  height: 100%; }
+
+#NavBar {
+  height: 4em;
+  background-color: #3B3B3B;
+  background-size: cover;
+  border-top-style: solid;
+  border-top-color: #961418;
+  font-family: "Oswald", sans-serif; }
+  #NavBar h3 {
+    margin: 0em;
+    color: #FFFFFF;
+    position: absolute;
+    left: 8em;
+    top: 1em; }
+  #NavBar a {
+    text-decoration: none;
+    color: #FFFFFF; }
+  #NavBar a:hover {
+    color: #FFC11B; }
+  #NavBar .Nav {
+    margin: 0em;
+    display: inline;
+    position: relative;
+    left: 30em;
+    top: 1.3em;
+    padding-right: 1.5em; }
+
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -8.875em; }
+  .page-wrap #main {
+    margin-left: 7em;
+    float: left;
+    padding-top: 2em;
+    width: 50%;
+    background-color: #FFFFFF;
+    height: 31.8em;
+    border-left-style: solid;
+    border-left-width: 1em;
+    border-left-color: #9F1A20; }
+    .page-wrap #main h3 {
+      color: #FFFFFF;
+      display: block;
+      background: #7E7E7E;
+      width: 27.5%;
+      text-align: center;
+      height: 2em;
+      padding-top: 1em; }
+  .page-wrap #featured {
+    position: absolute;
+    top: 7em;
+    margin-left: 15em; }
+    .page-wrap #featured h4 {
+      color: #9F1A20;
+      font-size: 5em; }
+    .page-wrap #featured ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0; }
+      .page-wrap #featured ul li {
+        color: #000000;
+        border-bottom-style: solid;
+        border-bottom-color: #D0CFCB; }
+  .page-wrap #categories {
+    width: 30%;
+    height: 31.8em;
+    margin-top: 2em;
+    float: left;
+    background-color: #3C3C3C; }
+
+.page-wrap:after {
+  content: "";
+  display: block; }
+
+.site-footer, .page-wrap:after {
+  height: 8.875em; }
+
+.site-footer {
+  background-color: #8C1014; }
+  .site-footer a {
+    color: #FFFFFF;
+    text-decoration: none; }
+  .site-footer a:hover {
+    text-decoration: underline; }
+  .site-footer h3 {
+    text-align: center;
+    padding-top: 1em; }
+
+/*# sourceMappingURL=MockSecond.css.map */
